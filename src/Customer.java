@@ -1,4 +1,8 @@
-class Customer {
+class Customer...
+   private double amountFor(Rental aRental) {
+      return aRental.getCharge();  // agora apenas delega chamada para método movido
+   }
+
    private String _name;
    private Vector _rentals = new Vector();
 
