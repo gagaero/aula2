@@ -2,7 +2,7 @@ private double amountFor(Rental each){
     double result = 0;
     //determine amounts for each line
  
-       thisAmount = amountFor(each);
+    thisAmount = each.getCharge();
  
        // add frequent renter points
        frequentRenterPoints ++;
